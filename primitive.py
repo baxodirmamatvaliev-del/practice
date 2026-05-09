@@ -17,3 +17,22 @@ rusult1 = count.bit_count()  # method
 result2 = count.numerator  # state
 
 print(rusult1, result2)
+
+
+# object lar kabi "string ham" ozini "state" va "method" ga ega ekan:
+print("====== string =======")
+# METHOD: upper() lower() title(). find() replase(). eng kop ishlatiladigan method lar:
+
+
+course = "AI Python FullStack"
+result = type(course)
+print(f"the result (1): {result}")
+# title method text bosh harifini katta harifda qlib beradi:
+result = course.title()
+print(f"the result (2):  {result}")
+# upper method text hariflarini hammasini kattaharif qlib beradi:
+result = course.upper()
+print(f"the result (3): {result}")
+# replace text sozlarini ozgartirib beradi:
+result = course.replace("FullStack", "MasterClass")
+print(f"the result (4): {result}")
