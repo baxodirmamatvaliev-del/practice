@@ -36,3 +36,24 @@ print(f"the result (3): {result}")
 # replace text sozlarini ozgartirib beradi:
 result = course.replace("FullStack", "MasterClass")
 print(f"the result (4): {result}")
+
+
+print("====== boolean =======")
+# FUNCTION > type() input() bool() int() str()
+y = input("Give your value for y:")
+print("y:", y)
+
+result = y.isnumeric()
+print(f"the input value is numeric {result}")
+
+
+# . TRUTHY VS FARSY
+# TRUTHY: True 100 -100 "MIT42"
+# FALSY : False "" 0 None
+
+test_falsy = "" or False or None or 100
+print("the foulsy:", bool(test_falsy))
+
+
+test_truthy = "MIT42"
+print("the truthy:", bool(test_truthy))
