@@ -1,4 +1,4 @@
-# Dunder - "Duble andr scol".  __bulltins__ , __init__  PYTHON ni ichki qurilish tizimi:
+# Dunder - "Duble andr scol".  __bulltins__ , __init__  PYTHON ni ichki qurilish tizimi: mahsus method lar bn taminlab berar ekan.
 
 message = "Python da barcha narsalar hammasi object hisoblanadi"
 print(message)
