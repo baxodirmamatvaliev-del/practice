@@ -87,3 +87,20 @@ your_car = Car("Toyota", 2026)
 print(your_car)
 response = your_car()
 print("response:", response)
+
+
+# MITASK G
+def mitask(numbers):
+
+    kuch = 0
+
+    for i in range(len(numbers)):
+        if numbers[i] > numbers[kuch]:
+
+            kuch = i
+
+    return kuch
+
+
+savatcha = [1, 45, 1, 44, 4]
+print(mitask(savatcha))
