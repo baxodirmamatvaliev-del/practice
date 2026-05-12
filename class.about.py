@@ -2,7 +2,7 @@
 '''
 (1) class ozi nima
 (2)ordinary va static properties   #static properties " BULAR TOGRIDAN TOGRI CLASS BILAN KELADIGAN state yoki method LAR HISOBLANADI
-(3)
+(3) maxsus method
 '''
 print("============ class ozi nima ============")
 # class lar object yasash uchun shablon hisoblanadi!
@@ -47,3 +47,43 @@ new_message = Person.message
 print("new_message:", new_message)
 
 # static
+
+
+class Car():
+    # state
+    description = "This class makes cars"
+
+    # constructor
+    def __new__(cls, *args, **kwargs):
+        print("* __new__ *")
+        return super().__new__(cls)
+
+    def __init__(self, name, year):
+        self.name = name
+        self.year = year
+
+    # method
+    def start_engine(self):
+        print(f"the {self.name} started engine!")
+
+    def stop_engine(self):
+        print(f"the {self.name} stopped engine!")
+
+    def __str__(self):
+        return f"{self.name} was produced in {self.year} year!"
+
+    def __call__(self):
+        print("Object called as function!")
+        return True
+
+
+my_car = Car("Ferrari", 2025)
+my_car.start_engine()
+my_car.stop_engine()
+
+print("-------")
+
+your_car = Car("Toyota", 2026)
+print(your_car)
+response = your_car()
+print("response:", response)
