@@ -7,7 +7,7 @@
 '''
 print("========== inheritense ===========")
 
-# parent ozini public va protectet bolgan propertilarni meros qila olar ekan. private bolsa esa meros qilmas ekan!
+# parent ozini public va protectet bolgan propertilarni ("state,method") meros qila olar ekan. private bolsa esa meros qilmas ekan!
 
 
 class Animal:  # perent
@@ -33,6 +33,9 @@ class Dog(Animal):  # chiled
 
     def protect(self):
         print("yes ,I can protect you!")
+
+    def make_voice(self):
+        print(f"the {self.name} says: {self.voice}")
 
 
 class Cat(Animal):
@@ -83,3 +86,22 @@ print(Animal.description)
 print(fish.description)
 
 print(dog.voice, fish.voice)
+
+# bir-xil method nomi bilan lekin malumotlari har-xil
+print("========  Polimorphism ========")
+# malumot soralganda Chiled birinchi ozini ichidan malumot qdiradi agar yoq bolsa Parent dan oladi shu( Polimorphism):
+
+dog.make_voice()
+fish.make_voice()
+# fish > fish . Animal > Object
+a = isinstance(fish, Fish)
+b = isinstance(fish, Animal)
+c = isinstance(fish, object)
+d = isinstance("MIT", object)
+result = a and b and c and d
+print("result:", {result})
+
+
+data1 = issubclass(Fish, Animal)
+data2 = issubclass(Animal, object)
+print("data", data1, data2)
