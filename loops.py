@@ -62,7 +62,7 @@ attempt = 0
 
 
 while True:
-    numberr = int(input("raqamni toping"))
+    numberr = int(input("raqamni toping_"))
     attempt += 1
 
     if numberr > x:
