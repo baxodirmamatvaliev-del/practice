@@ -57,10 +57,9 @@ while numb > 0:
 print("-------")
 
 x = random.randint(0, 100)
+print(x)
 
 attempt = 0
-
-
 while True:
     numberr = int(input("raqamni toping_"))
     attempt += 1
