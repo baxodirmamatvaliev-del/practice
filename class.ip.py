@@ -93,7 +93,7 @@ print("========  Polimorphism ========")
 
 dog.make_voice()
 fish.make_voice()
-# fish > fish . Animal > Object
+# fish > fish . Animal > Object extens bolgan xisoblanadi
 a = isinstance(fish, Fish)
 b = isinstance(fish, Animal)
 c = isinstance(fish, object)

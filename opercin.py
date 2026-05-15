@@ -78,3 +78,5 @@ elif is_admin:
     print("please go to office!")
 elif is_guest or is_parent:
     print("Waiting room is over there!")
+else:
+    print("Other cases")

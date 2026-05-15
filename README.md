@@ -24,8 +24,13 @@ git pull origin master
 - Primative Variable
 - function
 - object
-- class
-- class depp dive
+- class about
+- class depp dive > Encapsulation
+- class depp dive > Polimorphism Inheritense
 - operation & condition
 - loops
-- v.h.kk....
+- Tuply
+- List
+- Array
+- Copmrehencion
+- debugging
