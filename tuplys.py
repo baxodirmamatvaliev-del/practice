@@ -49,6 +49,7 @@ def calculate(*args):
 # CALL
 calculate(1, 7, 2, 3)
 calculate(0, 2, 300)
+# argumentlarimizni nomi no aniq bolganda biz tuple dan foydalanamiz
 calculate(5, 7)
 
 print("-----")
