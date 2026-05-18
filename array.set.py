@@ -30,3 +30,25 @@ print("numbers(3)", numbers)
 
 del numbers[0:2]
 print("numbers(4)", numbers)
+
+print("=========== Set =========")  # QISQA: TAKRORLANMAYDIGAN TOPLAM!
+# SET NI BIZ TAKRORIY BOLISHI KERAK BOLMAGAN PAYTLARDA ISHLATAR EKANMIZ,
+# YANI ARRAY ICHIDA BITTA VALUE 2-MARTA QATNASHGAN BOLSA "SET" BIZGA UNI
+# 1-MARTA OLIB BERADI. BIZ "SET" NI SHUNDAY PAYTLARDA ISHLATAR EKANMIZ.
+# VA "SET" INDEX YANI  KETMA KETLIK BOLMAYDI.
+
+new_numbers = array("i", [1, 4,  5,  7, 8, 41])
+numbs_set = set(new_numbers)
+
+print(f" the numbs set: {numbs_set} and type: {type(numbs_set)}")
+
+
+# SET ni ozini Method lari bor ekan.
+
+
+# add(). bu oxiridan value qoshib berar ekan
+numbs_set.add(200)
+print("numbs_set(1)", numbs_set)
+
+numbs_set.add(7)
+print("numbs_set(2)", numbs_set)
