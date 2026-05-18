@@ -13,6 +13,8 @@ git init
 git status
 git add .
 git commit -m "feat: Initial Setup"
+agar git commit qlib yuborgandan song nimadir qolib ketgan va uni togilash kerak bolgan payt
+ "push" qilmagan bolsak biz uni " git commit --amend " qlib togirlasak bolar ekan.
 
 git remote add origin https://github_address
 git push origin master

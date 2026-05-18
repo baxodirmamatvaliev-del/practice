@@ -40,7 +40,7 @@ for x in range(1, 20, 5):
     print(f"the x: {x}")
     if x > 10:
         print("reached break")
-    break
+        break
 else:
     print("Executed successfuly:)")
 
