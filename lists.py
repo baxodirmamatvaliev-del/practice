@@ -46,7 +46,7 @@ print("======  List methods =======")
 
 
 letter = ["a", "b", "c"]
-# append(). ni  text oxiridan malumot koshishdsa ishlataiz
+# append(). ni  text oxiridan malumot koshishda ishlatamiz
 letter.append("d")
 print(f"the append result: {letter}")
 
