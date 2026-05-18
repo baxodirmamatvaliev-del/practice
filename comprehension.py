@@ -33,3 +33,18 @@ cars = [
 
 list_cars = [car[0] for car in cars if car[1] > 80]
 print("list_cars", list_cars)
+
+
+print("====== set in dictonariy comprehension ======")
+
+numbs = [1, 5, 4, 20, 4, 5, 1, 4]
+set_numbs = {*numbs}  # a-version
+print("set_numbs:", set_numbs)
+
+disc_people = {persone[0]: persone[1] for persone in people}  # b-version
+print("disc_person:", disc_people)
+
+
+disc_people2 = {persone[0]: persone[1]
+                for persone in people if persone[1] > 20}  # b-version
+print("disc_person2:", disc_people2)
