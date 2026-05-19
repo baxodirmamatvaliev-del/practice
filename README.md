@@ -36,3 +36,16 @@ git pull origin master
 - Array
 - Copmrehencion
 - debugging
+
+## pip commands
+
+```
+window  pip | macOs  pip3
+
+pip3 list
+pip3 install pillow
+pip3 uninstall pillow
+pip3 show pillow
+pip3 freeze > requariments.txt
+
+```

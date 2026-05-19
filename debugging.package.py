@@ -5,6 +5,7 @@
 '''
 
 from PIL import Image
+# pillow. package orqari bis rasimning size va razmerini bera olar ekanmiz.
 import turtle
 print("===========Python peckages & core package ========== ")
 ''' Python peckages/ Modules: core,file and extrnial'''
