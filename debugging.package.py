@@ -43,3 +43,21 @@ with Image.open("material/2.jpg") as img_obj:
     resized_img = img_obj.resize((200, 200))
     resized_img.show()
     resized_img.show("material/sample.png")
+
+print("=========== Debbuging ===========")
+# Debbuging. orqari biz xatolarni bir zumda topip ,jarayonni
+# huddi mashina oylayotgan singari kuchli taxlilni amalga oshirishimiz
+# mumkin bolar ekan.
+
+
+def get_summary(*args):   # DEFINE
+    total_amount = 0
+
+    for a in args:
+        total_amount += a
+
+        return total_amount
+
+
+result = get_summary(1, 2, 3, 4, 5)   # CALL
+print("result:", result)
