@@ -1,6 +1,6 @@
 # PRACTICE PROJECT
 
-Learning GIT and Python Foundation
+Learning Git and Python Fundamentals
 
 ## GIT COMMANDS:
 
