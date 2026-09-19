@@ -23,7 +23,7 @@ git pull origin master
 
 ## Python Foundation
 
-- Primative Variable
+- Primitive Variables
 - function
 - object
 - class about
